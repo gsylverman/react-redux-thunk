@@ -10,14 +10,12 @@ const numberReducer = (state = initialState, action) => {
         case "UP":
             newState.number += 1;
             return newState;
-
         case "DOWN":
             newState.number -= 1;
-           return newState;;
+           return newState;
         default:
             return state;
     }
-    
 };
 
 export default numberReducer;
